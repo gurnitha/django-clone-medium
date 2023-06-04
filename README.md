@@ -30,3 +30,12 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         new file:   app/page/views.py
         modified:   config/settings.py
 
+
+#### 1.3 Create homepage: templates, views, urls
+
+        modified:   README.md
+        new file:   app/page/templates/page/home_page.html
+        new file:   app/page/urls.py
+        modified:   app/page/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
