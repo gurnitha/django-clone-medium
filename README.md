@@ -39,3 +39,13 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         modified:   app/page/views.py
         modified:   config/settings.py
         modified:   config/urls.py
+
+
+#### 1.4 Add and load static files
+
+        modified:   README.md
+        modified:   app/page/templates/page/home_page.html
+        modified:   config/settings.py
+        new file:   config/static/css/bootstrap.min.css
+        new file:   config/static/css/bootstrap.min.css.map
+        new file:   config/static/css/style.css
