@@ -49,3 +49,14 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         new file:   config/static/css/bootstrap.min.css
         new file:   config/static/css/bootstrap.min.css.map
         new file:   config/static/css/style.css
+
+
+#### 1.5 Add html template to homepage with template inheritance
+
+        modified:   README.md
+        new file:   app/page/templates/page/hero_header.html
+        modified:   app/page/templates/page/home_page.html
+        new file:   templates/base.html
+        new file:   templates/footer.html
+        new file:   templates/navbar.html
+
