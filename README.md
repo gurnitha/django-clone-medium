@@ -73,3 +73,11 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         new file:   app/user_profile/models.py
         new file:   app/user_profile/tests.py
         new file:   app/user_profile/views.py
+
+
+#### 2.2 USERS - Register 'app/user_profile' to settings.py
+
+        modified:   README.md
+        modified:   config/settings.py
+
+

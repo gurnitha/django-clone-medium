@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # My apps
     'app.page.apps.PageConfig',
+    'app.user_profile.apps.UserProfileConfig',
 ]
 
 MIDDLEWARE = [
