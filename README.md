@@ -60,3 +60,5 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         new file:   templates/footer.html
         new file:   templates/navbar.html
 
+
+## 2. USERS 
