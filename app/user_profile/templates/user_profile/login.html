@@ -8,9 +8,9 @@
             <h1>Login:</h1>
             <form method="post">
                 {% csrf_token %}
-                <!-- formda method belirtmeyi unutma! eger aramada gozukmeyecekse method POST olmali.. -->
-                <!-- her input bilgisinin name bilgisi olmasi gerekir!.. -->
-                <!-- csrf token bilgisi olmali.. -->
+                <!-- don't forget to specify the method in the form! If it won't show up in the search, the method should be POST. -->
+                <!-- every input information must be a name information!.. -->
+                <!-- Must have csrf token information.. -->
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">

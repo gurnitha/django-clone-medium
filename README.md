@@ -81,7 +81,7 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         modified:   config/settings.py
 
 
-#### 2.3 USERS - Create login page: templates, views, urls
+#### 2.3 USERS - LOGIN: Create login page: templates, views, urls
 
         modified:   README.md
         new file:   app/user_profile/templates/user_profile/login.html
@@ -91,4 +91,14 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         new file:   templates/base_without_navbar.html
 
 
+#### 2.4 USERS - LOGIN: Add user login logic to login_view
 
+        modified:   README.md
+        modified:   app/user_profile/templates/user_profile/login.html <<-- Modified
+        modified:   app/user_profile/views.py <<-- Add logic
+
+        NOTE:
+
+        1. Showed usename(email) and password credentials in the terminal 
+
+        :)
