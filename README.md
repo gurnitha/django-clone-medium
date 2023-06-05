@@ -133,3 +133,16 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         Logged in user SUKSES logout.
 
         :)
+
+
+#### 2.6 USERS - LOGIN: Adding-Login-Controls length charater of the username
+
+        modified:   README.md
+        modified:   app/user_profile/views.py <<-- add logic to login_vew, username MUST BE at least 6 char 
+        new file:   config/static/js/bootstrap.bundle.min.js
+        new file:   config/static/js/bootstrap.bundle.min.js.map
+        modified:   templates/base_without_navbar.html <<-- include message framework
+
+        NOTE:
+
+        Sukses kontrol jumlah karakter username

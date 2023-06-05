@@ -21,8 +21,14 @@ def login_view(request):
 		# print(request.POST)
 		username = request.POST.get('username')
 		password = request.POST.get('password')
-		print(username, password)
+		# print(username, password)
+		
+		if len(username) < 6 or len(password) < 6:
+			messages.warning(request, f'Please Enter the Username and Password Correctly.. It must not be less than 6 characters..')
+			return redirect('user_profile:login')
+
 		user = authenticate(request, username=username, password=password)
+
 		if user is not None:
 			login(request, user)
 			messages.success(request, f'{request.user.username } You are logged in')

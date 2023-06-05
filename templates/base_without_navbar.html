@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-   {% block content %}
-   {% endblock content %}
+    
+    {% include 'messages.html' %}
+    
+    {% block content %}
+    {% endblock content %}
+    
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 </body>
 
