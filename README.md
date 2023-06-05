@@ -166,3 +166,18 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         modified:   app/user_profile/views.py <<-- add logic to show user input in terminal
 
         :)
+
+
+#### 2.9 USERS - REGISTER: Part 3 - Add conditional to navbar
+
+        modified:   README.md
+        modified:   templates/navbar.html <<--add conditional
+
+        NOTE:
+
+        In Navbar
+
+        1. To un-login user, it shows: Sign In, and Get Started(register)
+        2. To logged in user, it shows: Username, and Logout
+
+        :)
