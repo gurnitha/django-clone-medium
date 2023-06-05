@@ -102,3 +102,20 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         1. Showed usename(email) and password credentials in the terminal 
 
         :)
+
+
+#### 2.5 USERS - LOGIN: Informing-User-Login-With-Django-Messages-Framework-Structure
+
+        modified:   README.md
+        modified:   app/user_profile/templates/user_profile/login.html << -- Modified username input from email to username
+        modified:   app/user_profile/views.py << -- Add more logic
+        modified:   templates/base.html << -- Incluce message
+        new file:   templates/messages.html << -- Add adn loop the message
+
+        NOTE:
+
+        1. Sukses: user bisa login
+           username: admin
+           password: admin
+
+        2. Redirect logged in user to homepage
