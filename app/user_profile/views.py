@@ -46,4 +46,10 @@ def logout_view(request):
 
 # USER REGISTER
 def register_view(request):
-    return render(request, 'user_profile/register.html')
+	
+	context = dict()
+
+	if request.method == 'POST':
+		print(request.POST)
+
+	return render(request, 'user_profile/register.html', context)

@@ -157,3 +157,12 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         modified:   templates/navbar.html <<-- add link
 
         :)
+
+
+#### 2.8 USERS - REGISTER: Part 2 - Add logic to registe_view to show user register data in terminal
+
+        modified:   README.md
+        modified:   app/user_profile/templates/user_profile/register.html <<-- fixing input field for surename
+        modified:   app/user_profile/views.py <<-- add logic to show user input in terminal
+
+        :)
