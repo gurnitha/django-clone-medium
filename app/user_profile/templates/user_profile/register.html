@@ -1,0 +1,90 @@
+{% extends 'base_without_navbar.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+            <h1>Sign up:</h1>
+            <form method="post">
+                {% csrf_token %}
+                <!-- don't forget to specify the method in the form! If it won't show up in the search, the method should be POST. -->
+                <!-- every input information must be a name information!.. -->
+                <!-- Must have csrf token information.. -->
+
+                <div class="mb-3">
+                    <label for="first_name" class="form-label">Name</label>
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        id="first_name" 
+                        name="first_name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="last_name" class="form-label">Surname</label>
+                    <input 
+                        type="email" 
+                        class="form-control" 
+                        id="last_name" 
+                        name="last_name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input 
+                        type="email" 
+                        class="form-control" 
+                        id="email" 
+                        aria-describedby="emailHelp" 
+                        name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="email-confirm" class="form-label">Email - Repeat
+</label>
+                    <input 
+                        type="email" 
+                        class="form-control" 
+                        id="email-confirm" 
+                        aria-describedby="emailHelp" 
+                        name="email-confirm">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input 
+                        type="password" 
+                        class="form-control" 
+                        id="password" 
+                        name="password">
+                </div>
+                <div class="mb-3">
+                    <label for="password-confirm" class="form-label">Password - Repeat</label>
+                    <input 
+                        type="password" 
+                        class="form-control" 
+                        id="password-confirm" 
+                        name="password-confirm">
+                </div>
+
+                <div class="mb-3">
+                    <label for="instagram" class="form-label">Instagram Account</label>
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        id="instagram" 
+                        name="instagram">
+                </div>
+                <button 
+                    type="submit" 
+                    class="btn btn-primary">Sign up</button>
+                <a 
+                    href="{% url 'page:home' %}" 
+                    class="btn btn-secondary">Cancel</a>
+                <a 
+                    href="{% url 'user_profile:login' %}" 
+                    class="btn btn-info">Login</a>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}

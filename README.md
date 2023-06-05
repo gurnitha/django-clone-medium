@@ -146,3 +146,14 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
         NOTE:
 
         Sukses kontrol jumlah karakter username
+
+
+#### 2.7 USERS - REGISTER: Part 1 - Creation Register Page, templates, views, urls, and links
+
+        modified:   README.md
+        new file:   app/user_profile/templates/user_profile/register.html <<--register form
+        modified:   app/user_profile/urls.py <<-- path to register
+        modified:   app/user_profile/views.py <<-- register_view
+        modified:   templates/navbar.html <<-- add link
+
+        :)

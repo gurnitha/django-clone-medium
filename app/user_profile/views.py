@@ -42,3 +42,8 @@ def logout_view(request):
 	messages.info(request, f'{request.user.username} Signed Out')
 	logout(request)
 	return redirect('page:home')
+
+
+# USER REGISTER
+def register_view(request):
+    return render(request, 'user_profile/register.html')
