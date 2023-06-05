@@ -4,12 +4,13 @@
 from django.urls import path
 
 # Locals
-from app.user_profile.views import login_view
+from app.user_profile.views import login_view, logout_view
 
 app_name = 'user_profile'
 
 urlpatterns = [
 
     path('login/', login_view, name='login'),
+    path('logout/', logout_view, name='logout'),
 
 ]

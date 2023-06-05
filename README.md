@@ -119,3 +119,17 @@ Meng-clone Medium dengan menggunakan Django versi 4.2
            password: admin
 
         2. Redirect logged in user to homepage
+
+
+#### 2.6 USERS - LOGOUT: Creating-Logout-View-and-Adding-Urls
+
+        modified:   README.md
+        modified:   app/user_profile/urls.py <<-- Add path for logout
+        modified:   app/user_profile/views.py <<-- Create logout_view with logic
+        modified:   templates/navbar.html <<-- Add links to sign-in and sign-out
+
+        NOTE:
+
+        Logged in user SUKSES logout.
+
+        :)
